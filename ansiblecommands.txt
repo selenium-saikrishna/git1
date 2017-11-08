@@ -1,0 +1,11 @@
+step by step execution
+ansible-playbook provision.yml -i hosts --step
+
+dry run
+ansible-playbook --check playbook.yml
+
+Disbale capturing facts
+gather_facts: False
+
+to find the list of tasks in playbook
+ansible-playbook install-jenkins.yml --list-tasks
