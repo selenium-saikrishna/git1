@@ -1,4 +1,4 @@
-#new changes@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 create an ubuntu instance
 security group put ssh and http
 apt-get update
